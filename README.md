@@ -2,6 +2,7 @@
 
 A Streamlit-based application that implements a Retrieval-Augmented Generation (RAG) system for querying PDF documents using DeepSeek R1 model and Ollama.
 
+
 ## Features
 
 - PDF document upload and processing
