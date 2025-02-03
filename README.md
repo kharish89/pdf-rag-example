@@ -107,8 +107,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - HuggingFace for the embedding models
 - Streamlit for the web interface
 
-## Contact
-
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/pdf-rag-example
-
