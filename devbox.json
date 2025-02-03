@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.7/.schema/devbox.schema.json",
+  "packages": [
+    "python@3.13.1",
+    "uv@latest",
+    "ollama@latest"
+  ],
+  "env_from": "./.env",
+  "shell": {
+    "init_hook": [
+      ". $VENV_DIR/bin/activate",
+      "uv sync"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ],
+      "ollama-up": "devbox services start ollama",
+      "start": "streamlit run pdf-rag-example.py",
+      "ollama-down": "devbox services stop ollama"
+    }
+  }
+}
